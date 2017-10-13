@@ -20,7 +20,7 @@
  * Inc., 675 Mass Ave, Cambridge, MA 02139, USA.                              *
  *                                                                            *
  ******************************************************************************
- */
+ *///c4
 package application;
 
 import java.io.BufferedReader;
