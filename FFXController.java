@@ -31,7 +31,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-
+//change 1
 public class FFXController {
 	private final Desktop desktop = Desktop.getDesktop();
 	private String textToFile = new String("");
@@ -144,18 +144,18 @@ public class FFXController {
 	}
 
 	void openText(Stage stage) {
-		stage.setTitle("选择文件");
+		stage.setTitle("脩隆脭帽脦脛录镁");
 
 		final FileChooser fileChooser = new FileChooser();
 
-		Button openButton = new Button("打开文件");
+		Button openButton = new Button("麓貌驴陋脦脛录镁");
 		Label openLabel = new Label("...");
 		openLabel.setWrapText(true);
 		openLabel.setTranslateX(200);
 		openButton.setOnAction((final ActionEvent e) -> {
 			File file = fileChooser.showOpenDialog(stage);
 			if (file != null) {
-				openLabel.setText("文件打开成功");// if the file has been opened successfully,the other buttons will be
+				openLabel.setText("脦脛录镁麓貌驴陋鲁脡鹿娄");// if the file has been opened successfully,the other buttons will be
 											// visible
 				showgraphb.setVisible(true);
 				seekbrigewordb.setVisible(true);
@@ -175,7 +175,7 @@ public class FFXController {
 					e2.printStackTrace();
 				}
 			} else {
-				openLabel.setText("文件打开失败");// when failed to open the text,the other buttons won't be visible
+				openLabel.setText("脦脛录镁麓貌驴陋脢搂掳脺");// when failed to open the text,the other buttons won't be visible
 				showgraphb.setVisible(false);
 				seekbrigewordb.setVisible(false);
 				createnewtextb.setVisible(false);
@@ -257,7 +257,7 @@ public class FFXController {
 	}
 
 	void seekBrige(Stage stage) {
-		stage.setTitle("查找桥接词");
+		stage.setTitle("虏茅脮脪脟脜陆脫麓脢");
 		Pane myPane = null;
 		try {
 			myPane = (Pane) FXMLLoader.load(getClass().getResource("seekBrigeWordPage.fxml"));
@@ -295,7 +295,7 @@ public class FFXController {
 	}
 
 	void createText(Stage stage) {
-		stage.setTitle("生成新文本");
+		stage.setTitle("脡煤鲁脡脨脗脦脛卤戮");
 		Pane myPane = new Pane();
 		try {
 			myPane = (Pane) FXMLLoader.load(getClass().getResource("createNewText.fxml"));
@@ -478,7 +478,7 @@ public class FFXController {
 		output.write(textToFile);
 		output.close();
 		Stage stage = new Stage();
-		Label label = new Label("文件保存成功，路径为:" + fileName);
+		Label label = new Label("脦脛录镁卤拢麓忙鲁脡鹿娄拢卢脗路戮露脦陋:" + fileName);
 		Pane pane = new Pane();
 		pane.getChildren().add(label);
 		Scene myScene = new Scene(pane);
@@ -492,7 +492,7 @@ public class FFXController {
 	}
 
 	void findPath(Stage stage) {
-		stage.setTitle("查找最短路径");
+		stage.setTitle("虏茅脮脪脳卯露脤脗路戮露");
 		Pane myPane = null;
 		try {
 			myPane = (Pane) FXMLLoader.load(getClass().getResource("seekShortestPath.fxml"));
@@ -550,7 +550,7 @@ public class FFXController {
 	}
 
 	void randWalk(Stage stage) {
-		stage.setTitle("随机游走");
+		stage.setTitle("脣忙禄煤脫脦脳脽");
 		rand_pool = new ArrayList<String>();
 		rand_pair = rand_start = rand_point = "";
 		rand_finish = false;
