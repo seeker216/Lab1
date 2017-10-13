@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="417.0" prefWidth="442.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.FFXController">
+   <children>
+      <Label layoutX="39.0" layoutY="88.0" text="请输入文本：" />
+      <TextArea fx:id="oldText" layoutX="149.0" layoutY="38.0" prefHeight="126.0" prefWidth="200.0" />
+      <TextArea fx:id="newText" layoutX="149.0" layoutY="253.0" prefHeight="142.0" prefWidth="200.0" />
+      <Label layoutX="47.0" layoutY="304.0" text="新文本是：" />
+      <Button fx:id="cTbutton" layoutX="200.0" layoutY="194.0" mnemonicParsing="false" onAction="#subCreateNewText" text="OK" />
+   </children>
+</AnchorPane>
