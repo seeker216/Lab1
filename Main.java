@@ -10,7 +10,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 
 
-//change 1
+//change 1 B2
 public class Main extends Application {
 	@FXML
 	private Button showgraphb;
