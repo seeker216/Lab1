@@ -563,6 +563,11 @@ public class FFXController {
 		Scene myScene = new Scene(myPane);
 		stage.setScene(myScene);
 		stage.show();
+
 	}
+//modification on B1
+
+	}//modification on C4
+
 
 }
