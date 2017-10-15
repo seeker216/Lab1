@@ -549,7 +549,7 @@ public class FFXController {
 		return ret;
 	}
 
-	void randWalk(Stage stage) {//这里是随机游走
+	void randWalk(Stage stage) {//This is random walk
 		stage.setTitle("随机游走");
 		rand_pool = new ArrayList<String>();
 		rand_pair = rand_start = rand_point = "";
