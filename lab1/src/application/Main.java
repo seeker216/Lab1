@@ -9,6 +9,8 @@ import javafx.stage.Stage;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 
+
+//change 1 changjingsan
 public class Main extends Application {
 	@FXML
 	private Button showgraphb;
