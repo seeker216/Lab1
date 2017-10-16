@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="root" prefHeight="450.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FFXController">
+	<children>
+		<Button id="readtxtb" layoutX="127.0" layoutY="87.0" mnemonicParsing="false" onAction="#readText" prefHeight="39.0" prefWidth="155.0" text="读入文本生成有向图" />
+		<Button fx:id="showgraphb" layoutX="128.0" layoutY="140.0" mnemonicParsing="false" onAction="#showDirectedGraph" prefHeight="39.0" prefWidth="155.0" text="展示有向图" visible="false" />
+		<Button fx:id="seekbrigewordb" layoutX="127.0" layoutY="186.0" mnemonicParsing="false" onAction="#seekBrigeWord" prefHeight="39.0" prefWidth="155.0" text="查询桥接词" visible="false" />
+		<Button fx:id="createnewtextb" layoutX="124.0" layoutY="231.0" mnemonicParsing="false" onAction="#createNewText" prefHeight="39.0" prefWidth="155.0" text="根据桥接词生成新文本" visible="false" />
+		<Button fx:id="seekshortestpathb" layoutX="127.0" layoutY="281.0" mnemonicParsing="false" onAction="#seekShortestPath" prefHeight="39.0" prefWidth="155.0" text="查找最短路径" visible="false" />
+		<Button fx:id="randomwalkb" layoutX="123.0" layoutY="331.0" mnemonicParsing="false" onAction="#randWalk" prefHeight="39.0" prefWidth="155.0" text="随机游走" visible="false" />
+		<Label id="welcome" layoutX="139.0" layoutY="41.0" text="欢迎来到本系统！">
+			<font>
+				<Font name="System Bold" size="18.0" />
+			</font>
+		</Label>
+		<Label id="sign" layoutX="245.0" layoutY="390.0" text="Coded by ZYS&amp;ZXY" />
+      
+	</children>
+</AnchorPane>

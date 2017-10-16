@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="293.0" prefWidth="358.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.FFXController">
+   <children>
+      <Label layoutX="142.0" layoutY="35.0" text="请输入单词" />
+      <Label layoutX="27.0" layoutY="75.0" text="第一个单词" />
+      <Label layoutX="27.0" layoutY="116.0" text="第二个单词" />
+      <Label layoutX="27.0" layoutY="223.0" text="桥接词是：" />
+      <Button fx:id="bWbutton" layoutX="160.0" layoutY="169.0" mnemonicParsing="false" onAction="#setBrigeWord" text="ok" />
+      <TextField fx:id="bWword1" layoutX="137.0" layoutY="70.0" prefHeight="30.0" prefWidth="164.0" />
+      <TextField fx:id="bWword2" layoutX="137.0" layoutY="111.0" prefHeight="30.0" prefWidth="164.0" />
+      <TextField fx:id="bWresult" editable="false" layoutX="140.0" layoutY="218.0" prefHeight="30.0" prefWidth="164.0" />
+   </children>
+</AnchorPane>
