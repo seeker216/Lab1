@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="460.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boundary.seekShortestPath">
+   <children>
+      <Label layoutX="61.0" layoutY="105.0" text="word 1" />
+      <Label layoutX="61.0" layoutY="160.0" text="word 2" />
+      <TextField fx:id="sPword1" layoutX="148.0" layoutY="100.0" />
+      <TextField fx:id="sPword2" layoutX="148.0" layoutY="155.0" />
+      <Button fx:id="sPbutton" layoutX="198.0" layoutY="203.0" mnemonicParsing="false" onAction="#shortestPath" text="ok" />
+      <TextArea fx:id="sPresult" editable="false" layoutX="25.0" layoutY="243.0" prefHeight="197.0" prefWidth="410.0" />
+   </children>
+</AnchorPane>
